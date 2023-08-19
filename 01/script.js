@@ -40,6 +40,7 @@
 //############ multiple but one by one ############
 // Stagger
 // Repeat
+// yoyo
 
 // gsap.to('#box',{
 //    x:500,
@@ -49,10 +50,25 @@
 //    repeat:1 ,//this will repeat one more time
 //    // repeat: -1 // this will repeat infinite
 //    yoyo:true, // initial to finall,final to initial
-  
+
 // })
 
 //############ Timeline ############
-// to decrease the complication of code
+// to decrease the complication of code, and run code one by one, synchronously 
+
+// var tl = gsap.timeline();
+// // tl=gsap
+// tl.to('.box1', {
+//    x: 300,
+//    duration: 1,
+// });
+// tl.to('.box2', {
+//    x: 400,
+//    duration: 1,
+// });
+// tl.to('.box3', {
+//    x: 500,
+//    duration: 1,
+// })
 
 
