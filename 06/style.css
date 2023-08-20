@@ -1,0 +1,58 @@
+@font-face {
+	font-family: anyname;
+	src: url(/05/Heading-Now-Variable.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+body,
+html {
+	height: 100%;
+	width: 100%;
+}
+#loader {
+	height: 100vh;
+	width: 100%;
+	background-color: antiquewhite;
+	position: fixed;
+	z-index: 99;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#loader h1 {
+	font-family: anyname;
+	color: black;
+	font-weight: 500;
+	font-size: 5vw;
+	font-stretch: 500%;
+}
+#page1 {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	padding: 50px;
+}
+#page1 h1 {
+	font-family: anyname;
+	font-size: 50vw;
+	font-stretch: 260%;
+	white-space: nowrap;
+	font-weight: 999;
+}
+#page2 {
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(52, 51, 51);
+}
+#page3 {
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(127, 126, 126);
+}

@@ -1,0 +1,40 @@
+@font-face {
+	font-family: anyname;
+	src: url(/05/Heading-Now-Variable.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   color: white;
+}
+body,
+html {
+	height: 100%;
+	width: 100%;
+}
+#page1 {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+   display: flex;align-items: center;
+   overflow: hidden;
+   padding: 50px;
+}
+#page1 h1{
+   font-family: anyname;
+   font-size: 50vw;
+   font-stretch: 260%;
+   white-space: nowrap;
+   font-weight: 999;
+}
+#page2 {
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(52, 51, 51);
+}
+#page3 {
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(127, 126, 126);
+}
