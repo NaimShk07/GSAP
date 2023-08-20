@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Gilroy";
+	list-style: none;
+	font-weight: 600;
+}
+body,
+html {
+	height: 100%;
+	width: 100%;
+}
+#page1 {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	padding: 10px 70px;
+}
+#nav {
+	height: 80px;
+	width: 100%;
+	border-bottom: 2px solid rgb(120, 119, 119);
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+#nav #nav-left {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#nav #nav-left ul {
+	display: flex;
+	gap: 30px;
+}
+#nav #nav-right {
+	width: 50%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+#nav #nav-right #circle {
+	border: 2px solid white;
+	border-radius: 50%;
+	width: 40px;
+	aspect-ratio: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+
+#main {
+	display: flex;
+	padding: 100px 0;
+	gap: 30px;
+}
+#main #main-left {
+	width: 50%;
+}
+#main #main-left h1 {
+	font-size: 100px;
+}
+/* #main #main-left h1 span {
+   width: 100px;
+   height: 100px;
+} */
+#main #main-left h1 span img{
+   width: 80px;
+   height: 80px;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-left: -45px;
+   background-color: blue;
+   border: 5px solid black;
+}
+#main #main-left h1 span img:first-child{
+   margin-left: 0;
+}
+#main #main-right {
+	width: 50%;
+   overflow: hidden;
+	border-radius: 20px;
+
+}
+#main #main-right img {
+	width: 100%;
+	/* object-fit: cover; */
+	border-radius: 20px;
+}
+
+#page2 {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	padding: 10px 70px;
+}
+#row {
+	display: flex;
+   height: 100%;
+	align-items: center;
+}
+#page2-left {
+	width: 20%;
+}
+#page2-left #buttons {
+	margin-top: 50px;
+}
+#page2-left #buttons button {
+	padding: 10px 20px;
+	font-size: 20px;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 2px solid rgb(128, 128, 128);
+	margin-bottom: 10px;
+}
+#page2-right {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 50px;
+}
+#page2-right #p2-box {
+	width: 250px;
+	height: 250px;
+	background-color: #fd5e09;
+	border-radius: 20px;
+   padding: 20px;
+   color: black;
+}
+#page2-right #p2-box:nth-child(2) {
+	background-color: #e0e0e0;
+}
+#page2-right #p2-box:nth-child(3) {
+	background-color: #fdc959;
+}
